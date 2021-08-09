@@ -1,5 +1,5 @@
 import './App.css';
-import Profile from './containers/Home';
+import Profile from './containers/Profile';
 
 function App() {
   return (

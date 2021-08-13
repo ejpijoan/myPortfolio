@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Home from '../components/Home'
+import Intro from '../components/Intro'
 
 class Profile extends Component {
     render() {
         return (
-            <Home/>
+            <Intro/>
         )
     }
 }

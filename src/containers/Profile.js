@@ -3,6 +3,7 @@ import Intro from '../components/Intro';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Resume from '../components/Resume';
+import Socials from '../components/Socials';
 
 class Profile extends Component {
     render() {
@@ -12,6 +13,7 @@ class Profile extends Component {
                 <About/>
                 <Projects/>
                 <Resume/>
+                <Socials/>
             </div>
         )
     }

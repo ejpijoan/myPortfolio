@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function Intro () {
-        return <h3>Hi, My name is Emiko. I'm a full stack software engineer.</h3>
+class Intro extends Component {
+        
+        render(){
+           return <h3>Hi, My name is Emiko. I'm a full stack software engineer.</h3>     
+        }      
 }
 
 export default Intro;

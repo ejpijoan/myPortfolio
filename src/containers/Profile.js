@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Intro from '../components/Intro';
 import About from '../components/About';
-import Projects from '../components/Projects'
+import Projects from '../components/Projects';
+import Resume from '../components/Resume';
 
 class Profile extends Component {
     render() {
@@ -10,6 +11,7 @@ class Profile extends Component {
                 <Intro/>
                 <About/>
                 <Projects/>
+                <Resume/>
             </div>
         )
     }

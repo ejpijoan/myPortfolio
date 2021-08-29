@@ -6,8 +6,6 @@ class Intro extends Component {
                 super();
                 this.state = {
                 roles: ['full stack software engineer', 'biochemist', 'calligrapher', 'sewist'],
-                currentRole: '',
-                roleNum: 0,
                 };
         }
 

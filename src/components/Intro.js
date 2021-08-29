@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import TextLoop from 'react-text-loop';
 
 class Intro extends Component {
         constructor() {

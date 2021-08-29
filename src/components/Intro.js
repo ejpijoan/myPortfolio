@@ -10,24 +10,6 @@ class Intro extends Component {
                 roleNum: 0,
                 };
         }
-        componentDidMount = () => {
-                this.changeRoles()
-        }
-
-        changeRoles = () => {
-             setInterval(this.currentRole(), 1000)           
-        }
-
-        currentRole = () => {
-                this.setState(prevState => {
-                        return {
-                                ...prevState,
-                                currentRole: prevState.roles[prevState.roleNum],
-                                rollNum: ((prevState.roleNum + 1) % prevState.roles.length),
-                                }
-                        }
-                )
-        }
 
         render(){
            return (

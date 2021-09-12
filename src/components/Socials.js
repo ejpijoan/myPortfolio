@@ -4,14 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Socials () {
     return (
         <div>
-            <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-            <a href='https://www.linkedin.com/in/emiko-nagasawa-pijoan/'>LinkedIn</a>
+            <a href='https://www.linkedin.com/in/emiko-nagasawa-pijoan/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
             <br/>
-            <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-            <a href='https://www.facebook.com/emiko.nagasawapijoan'>Facebook</a>
+            <a href='https://www.facebook.com/emiko.nagasawapijoan'><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
             <br/>
-            <FontAwesomeIcon icon={['fab', 'github']} />
-            <a href='https://github.com/Emi691'>Github</a>
+            <a href='https://github.com/Emi691'><FontAwesomeIcon icon={['fab', 'github']} /></a>
         </div>
     )
 }

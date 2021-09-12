@@ -12,7 +12,7 @@ class Intro extends Component {
         render(){
            return (
                 <h1>
-                Hi, My name is Emiko. I'm a
+                Hi, My name is Emiko. I'm a 
                 <TextLoop children={this.state.roles}/>
              </h1>
            )

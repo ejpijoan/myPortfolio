@@ -16,7 +16,9 @@ class Intro extends Component {
                 }))
         }
 
-        
+        componentDidUpdate = () => {
+                setTimeout(this.currentRole,1000)
+        }
 
         currentRole = () => {
               this.setState(prevState => ({

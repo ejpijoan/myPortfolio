@@ -11,10 +11,10 @@ class Intro extends Component {
         }
 
         currentRole = () => {
-              this.setState(prevState ({
-                      index: ((index + 1)%(prevState.roles.length))
-              })
-                return this.state.roles[this.state.num]
+              this.setState(prevState => ({
+                      index: ((prevState.index + 1)%(prevState.roles.length - 1)),
+                      currentRole: prevState.roles[prevState.index]
+              }))
         }
 
         render(){

@@ -10,6 +10,14 @@ class Intro extends Component {
                 };
         }
 
+        componentDidMount = () => {
+                this.setState(prevState => ({
+                        currentRole: prevState.roles[0]
+                }))
+        }
+
+        
+
         currentRole = () => {
               this.setState(prevState => ({
                       index: ((prevState.index + 1)%(prevState.roles.length - 1)),
@@ -20,7 +28,7 @@ class Intro extends Component {
         render(){
            return (
                 <h1>
-                Hi, My name is Emiko. I'm a {}/>
+                Hi, My name is Emiko. I'm a {this.state.currentRole}/>
                 </h1>
            )
         }      

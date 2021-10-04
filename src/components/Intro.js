@@ -8,6 +8,13 @@ class Intro extends Component {
                 };
         }
 
+        currentRole = () => {
+              this.setState({
+                      num: num++
+              })  
+              return this.state.roles[this.state.num]
+        }
+
         render(){
            return (
                 <h1>

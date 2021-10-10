@@ -17,7 +17,7 @@ class Intro extends Component {
         }
 
         componentDidUpdate = () => {
-                setTimeout(this.currentRole,1000)
+                setTimeout(this.currentRole,1500)
         }
 
         currentRole = () => {

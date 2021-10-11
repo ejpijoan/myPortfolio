@@ -21,7 +21,7 @@ class Profile extends Component {
 
     render() {
         return (
-            <div>
+            <div onClick={this.handleClick}>
                 <Intro/>
                 {this.state.components}
             </div>

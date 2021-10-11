@@ -13,14 +13,17 @@ class Profile extends Component {
         }
     }
 
+    handleClick = () => {
+        this.setState({
+            components: [<About/>, <Projects/>, <Resume/>, <Socials/>]
+        })
+    }
+
     render() {
         return (
             <div>
                 <Intro/>
-                {/* <About/>
-                <Projects/>
-                <Resume/>
-                <Socials/> */}
+                {this.state.components}
             </div>
         )
     }

@@ -9,7 +9,7 @@ class Profile extends Component {
     constructor(){
         super();
         this.state = {
-            components: []
+            components: [<Intro/>]
         }
     }
 
@@ -22,15 +22,14 @@ class Profile extends Component {
     }
 
     handleClick = () => {
-        this.setState({
-            components: [<About/>, <Projects/>, <Resume/>, <Socials/>]
-        })
+        this.setState( prevState => ({
+            components: [...prevState.components, <About/>, <Projects/>, <Resume/>, <Socials/>]
+        }))
     }
 
     render() {
         return (
             <div>
-                <Intro/>
                 {this.state.components}
             </div>
         )

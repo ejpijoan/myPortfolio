@@ -17,7 +17,7 @@ class Profile extends Component {
         document.addEventListener('click', this.handleClick)
     }
 
-    componentWillUnmount = () => {
+    componentDidUpdate = () => {
         document.removeEventListener('click', this.handleClick)
     }
 

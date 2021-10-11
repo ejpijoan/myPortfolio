@@ -13,6 +13,10 @@ class Profile extends Component {
         }
     }
 
+    componentDidMount(){
+        document.body.addEventListener('click', this.handleClick)
+    }
+
     handleClick = () => {
         this.setState({
             components: [<About/>, <Projects/>, <Resume/>, <Socials/>]
@@ -21,7 +25,7 @@ class Profile extends Component {
 
     render() {
         return (
-            <div onClick={this.handleClick}>
+            <div>
                 <Intro/>
                 {this.state.components}
             </div>

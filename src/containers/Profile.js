@@ -6,14 +6,21 @@ import Resume from '../components/Resume';
 import Socials from '../components/Socials';
 
 class Profile extends Component {
+    constructor(){
+        super();
+        this.state = {
+            components: []
+        }
+    }
+
     render() {
         return (
             <div>
                 <Intro/>
-                <About/>
+                {/* <About/>
                 <Projects/>
                 <Resume/>
-                <Socials/>
+                <Socials/> */}
             </div>
         )
     }

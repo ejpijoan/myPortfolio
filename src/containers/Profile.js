@@ -14,11 +14,11 @@ class Profile extends Component {
     }
 
     componentDidMount = () => {
-        document.body.addEventListener('click', this.handleClick)
+        document.addEventListener('click', this.handleClick)
     }
 
     componentWillUnmount = () => {
-        document.body.removeEventListener('click', this.handleClick)
+        document.removeEventListener('click', this.handleClick)
     }
 
     handleClick = () => {

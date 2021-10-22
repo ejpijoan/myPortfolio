@@ -5,7 +5,6 @@ class Intro extends Component {
                 super();
                 this.state = {
                 index: 0,
-                currentRole: '',
                 roles: ['full stack software engineer', 'biochemist', 'calligrapher', 'sewist'],
                 };
         }
@@ -23,14 +22,13 @@ class Intro extends Component {
         currentRole = () => {
               this.setState(prevState => ({
                       index: ((prevState.index + 1)%prevState.roles.length),
-                      currentRole: prevState.roles[prevState.index]
               }))
         }
 
         render(){
            return (
                 <h1>
-                Hi, My name is Emiko. I'm a {this.state.currentRole}
+                Hi, My name is Emiko. I'm a {this.state.roles[this.state.index]}
                 </h1>
            )
         }      

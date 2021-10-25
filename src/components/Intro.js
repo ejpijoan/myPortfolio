@@ -20,6 +20,10 @@ class Intro extends Component {
                 setTimeout(this.currentRole,1500)
         }
 
+        componentWillUnmount = () => {
+                document.removeEventListener('click', this.handleClick)
+        }
+
         currentRole = () => {
               this.setState(prevState => ({
                       index: ((prevState.index + 1)%prevState.roles.length),

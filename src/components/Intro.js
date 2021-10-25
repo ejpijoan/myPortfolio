@@ -12,9 +12,8 @@ class Intro extends Component {
         }
 
         componentDidMount = () => {
-                this.setState(prevState => ({
-                        currentRole: prevState.roles[0]
-                }))
+                document.addEventListener('click', this.handleClick)
+                setTimeout(this.currentRole,1500)
         }
 
         componentDidUpdate = () => {
@@ -29,7 +28,7 @@ class Intro extends Component {
 
         render(){
            if(this.state.redirect){
-                return <Redirect to='/profile' />
+                return <Redirect push to='/profile' />
            } 
 
            return (

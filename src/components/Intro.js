@@ -30,6 +30,12 @@ class Intro extends Component {
               }))
         }
 
+        handleClick = () => {
+                this.setState({
+                        redirect: true
+                })
+        }
+
         render(){
            if(this.state.redirect){
                 return <Redirect push to='/profile' />

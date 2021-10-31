@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-import {Redirect} from 'react-router-dom'
 
 class Intro extends Component {
         constructor() {
                 super();
-                this.state = {
-                redirect: false,        
+                this.state = {     
                 index: 0,
                 roles: ['full stack software engineer', 'biochemist', 'calligrapher', 'sewist'],
                 };

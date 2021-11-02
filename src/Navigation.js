@@ -5,8 +5,8 @@ import {Navbar, Nav, Container} from 'react-bootstrap'
 class Navigation extends Component {
     render(){
         return(
-            <Navbar className='Navbar' bg='light'>
-                <Container className='Container'>
+            <Navbar className='Navbar' bg='white'>
+                <Container className='justify-content-end'>
                     <Nav className='flex-column'>
                             <Navbar.Brand href="/">Emiko</Navbar.Brand>
                             <Nav.Link href="/about">About</Nav.Link>

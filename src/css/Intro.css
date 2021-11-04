@@ -1,0 +1,13 @@
+.flex-row {
+    /* height: 100%;
+    min-height: 100vh;
+    align-self: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.intro {
+    font-weight: bold;
+}

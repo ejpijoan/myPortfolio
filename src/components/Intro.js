@@ -27,7 +27,7 @@ class Intro extends Component {
  
         render(){
            return (
-                <Container className='align-items-center'>
+                <Container className='container'>
                         <h1 className='intro' contentEditable>
                         Hi, My name is Emiko. I'm a <span style={{color: 'tomato'}}>{this.state.roles[this.state.index]}</span></h1>
                 </Container>

@@ -8,9 +8,9 @@ class Navigation extends Component {
             <Navbar className='navbar' bg='white'>
                 <Container className='justify-content-end'>
                     <Nav className='flex-column'>
-                            <Navbar.Brand className='brand' href="/">Emiko</Navbar.Brand>
-                            <Nav.Link className='navlink' href="/about">About</Nav.Link>
-                            <Nav.Link className='navlink' href="/portfolio">Work</Nav.Link>
+                        <Navbar.Brand className='brand' href="/">Emiko</Navbar.Brand>
+                        <Nav.Link className='navlink' href="/about">About</Nav.Link>
+                        <Nav.Link className='navlink' href="/portfolio">Work</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>    

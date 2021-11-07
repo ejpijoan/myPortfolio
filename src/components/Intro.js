@@ -29,7 +29,9 @@ class Intro extends Component {
            return (
                 <Container className='container'>
                         <h1 className='intro'>
-                        Hi, My name is Emiko. I'm a <span style={{color: 'tomato'}}>{this.state.roles[this.state.index]}</span></h1>
+                        Hi, My name is Emiko. I'm a 
+                        <span style={{color: 'tomato'}}>{this.state.roles[this.state.index]}</span>
+                        </h1>
                 </Container>
            )
         }    

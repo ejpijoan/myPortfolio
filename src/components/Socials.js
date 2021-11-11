@@ -9,6 +9,8 @@ function Socials () {
             <a href='https://www.facebook.com/emiko.nagasawapijoan'><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
             <br/>
             <a href='https://github.com/Emi691'><FontAwesomeIcon icon={['fab', 'github']} /></a>
+            <br/>
+            <button className='email' ><FontAwesomeIcon icon={['far', 'envelope']} /></button>
         </div>
     )
 }

@@ -1,7 +1,13 @@
-import React, {Component} from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
+import React, {Component} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
-class Socials extends Component() {
+class Socials extends Component {
+    constructor(){
+        super();
+        this.state = {
+            email: 'em1kopi@gmail.com'
+        }
+    }
     
     render(){
         return (
@@ -12,7 +18,7 @@ class Socials extends Component() {
                 <br/>
                 <a href='https://github.com/Emi691'><FontAwesomeIcon icon={['fab', 'github']} /></a>
                 <br/>
-                <button className='email' onClick={this.clickHandler}><FontAwesomeIcon icon={['far', 'envelope']} /></button>
+                <a href={`mailto:${this.state.email}`}><FontAwesomeIcon icon={['far', 'envelope']} /></a>
             </div>
         )
     }

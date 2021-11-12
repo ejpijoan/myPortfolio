@@ -1,9 +1,10 @@
-import React from 'react' 
+import React from 'react'
+import resume from '../attachments/resume.pdf' 
 
 function Resume () {
     return (
         <div>
-            <p>resume</p>
+            <a href={resume}>Resume</a>
         </div>
     )
 }

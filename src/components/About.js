@@ -1,6 +1,6 @@
 import '../css/About.css'
 import React from 'react' 
-import Profile from '../IMG_2043.JPG'
+import Profile from '../attachments/profile.JPG'
 
 function About () {
     return (

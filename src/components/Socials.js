@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../css/Socials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 class Socials extends Component {

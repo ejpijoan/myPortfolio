@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from '../src/Navigation'
 import Intro from './components/Intro'
-import Profile from './containers/Profile'
+import About from './components/About'
 import Projects from './components/Projects'
 
 library.add(fab, faEnvelope)
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <>
         <Route exact path='/' component={Intro} />
-        <Route exact path='/about' component={Profile} />
+        <Route exact path='/about' component={About} />
         <Route exact path='/portfolio' component={Projects} />
         </>
       </Router>

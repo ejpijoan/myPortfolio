@@ -1,5 +1,6 @@
 import './Navigation.css';
 import React, {Component} from 'react'
+import resume from './attachments/resume.pdf' 
 import {Navbar, Nav, Container, Offcanvas} from 'react-bootstrap'
 
 class Navigation extends Component {
@@ -21,6 +22,7 @@ class Navigation extends Component {
                             <Nav className='justify-content-end flex-grow-1 pe-3'>
                                 <Nav.Link className='navlink' href="/about">About</Nav.Link>
                                 <Nav.Link className='navlink' href="/portfolio">Work</Nav.Link>
+                                <Nav.Link className='navlink' href={resume}>Resume</Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>

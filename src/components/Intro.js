@@ -24,12 +24,16 @@ class Intro extends Component {
                       index: ((prevState.index + 1)%prevState.roles.length),
               }))
         }
+
+        roleStyle = () => {
+                return {color: 'tomato', fontWeight: 'bold'}
+        }
  
         render(){
            return (
                 <Container className='container'>
                         <h1 className='intro'>
-                        Hi, My name is Emiko. I'm a <span style={{color: 'tomato'}}>{this.state.roles[this.state.index]}</span>
+                        Hi, My name is Emiko. I'm a <span style={this.roleStyle()}>{this.state.roles[this.state.index]}</span>
                         </h1>
                 </Container>
            )

@@ -1,17 +1,18 @@
 import './Navigation.css';
 import React, {Component} from 'react'
-import {Navbar, Nav, Container} from 'react-bootstrap'
+import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
 
 class Navigation extends Component {
     render(){
         return(
             <Navbar className='navbar' bg='white'>
                 <Container className='justify-content-end'>
-                    <Nav className='flex-column'>
-                        <Navbar.Brand className='brand' href="/">Emiko</Navbar.Brand>
-                        <Nav.Link className='navlink' href="/about">About</Nav.Link>
-                        <Nav.Link className='navlink' href="/portfolio">Work</Nav.Link>
-                    </Nav>
+                    <NavDropdown className='dropdown' title='dropdown'>
+                        <NavDropdown.Item className='navlink' href="/">Emiko</NavDropdown.Item>
+                        <NavDropdown.Divider/>
+                        <NavDropdown.Item className='navlink' href="/about">About</NavDropdown.Item>
+                        <NavDropdown.Item className='navlink' href="/portfolio">Work</NavDropdown.Item>
+                    </NavDropdown>
                 </Container>
             </Navbar>    
         )

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './Profile.css';
 import About from '../components/About';
-import Projects from '../components/Projects';
 import Socials from '../components/Socials';
 
 class Profile extends Component {
@@ -10,8 +9,6 @@ class Profile extends Component {
         return (
             <div>
                 <About/>
-                <Projects/>
-                <Socials/>
             </div>
         )
     }

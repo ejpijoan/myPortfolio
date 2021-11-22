@@ -10,11 +10,7 @@ class Navigation extends Component {
                 <Container fluid>
                     <Navbar.Brand className='brand' href="/">Emiko</Navbar.Brand>
                     <Navbar.Toggle aria-controls='offcanvasNavbar' />
-                    <Navbar.Offcanvas 
-                    id='offcanvasNavbar' 
-                    aria-labelledby='offcanvasNavbarLabel'
-                    placement='end'
-                    >
+                    <Navbar.Offcanvas id='offcanvasNavbar' aria-labelledby='offcanvasNavbarLabel' placement='end'>
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id='NavbarLabel'>Emiko</Offcanvas.Title>
                         </Offcanvas.Header>
@@ -26,7 +22,6 @@ class Navigation extends Component {
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
-                        
                 </Container>
             </Navbar>    
         )

@@ -3,8 +3,7 @@ import React, {Component} from 'react'
 import resume from './attachments/resume.pdf' 
 import {Navbar, Nav, Container, Offcanvas} from 'react-bootstrap'
 
-class Navigation extends Component {
-    render(){
+function Navigation () {
         return(
             <Navbar className='navbar' bg='light' expand={false}>
                 <Container fluid>
@@ -25,7 +24,6 @@ class Navigation extends Component {
                 </Container>
             </Navbar>    
         )
-    }
 }
 
 export default Navigation

@@ -3,13 +3,6 @@ import '../css/Socials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 class Socials extends Component {
-    constructor(){
-        super();
-        this.state = {
-            email: 'em1kopi@gmail.com'
-        }
-    }
-    
     render(){
         return (
             <div>
@@ -19,7 +12,7 @@ class Socials extends Component {
                 <br/>
                 <a href='https://github.com/Emi691'><FontAwesomeIcon icon={['fab', 'github']} /></a>
                 <br/>
-                <a href={`mailto:${this.state.email}`}><FontAwesomeIcon icon={['far', 'envelope']} /></a>
+                <a href={`mailto:em1kopi@gmail.com`}><FontAwesomeIcon icon={['far', 'envelope']} /></a>
             </div>
         )
     }

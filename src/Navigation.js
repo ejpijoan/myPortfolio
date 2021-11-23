@@ -1,5 +1,5 @@
 import './Navigation.css';
-import React, {Component} from 'react'
+import React from 'react'
 import resume from './attachments/resume.pdf' 
 import {Navbar, Nav, Container, Offcanvas} from 'react-bootstrap'
 

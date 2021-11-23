@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../css/Socials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
-class Socials extends Component {
-    render(){
+function Socials () {
         return (
             <div>
                 <a href='https://www.linkedin.com/in/emiko-nagasawa-pijoan/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
@@ -15,7 +14,6 @@ class Socials extends Component {
                 <a href={`mailto:em1kopi@gmail.com`}><FontAwesomeIcon icon={['far', 'envelope']} /></a>
             </div>
         )
-    }
 }
 
 export default Socials

@@ -1,6 +1,7 @@
 .about{
 display: flex;
 justify-content: center;
+align-items: flex-start;
 }
 
 .header{
@@ -9,6 +10,7 @@ justify-content: center;
 
 .story{
     align-self: flex-start;
+    text-align: left;
 }
 
 .profile{

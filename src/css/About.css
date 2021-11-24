@@ -1,0 +1,24 @@
+.about{
+display: flex;
+justify-content: center;
+}
+
+.header{
+    align-self: center;
+}
+
+.story{
+    align-self: flex-start;
+}
+
+.profile{
+    align-self: flex-end;
+}
+
+.links{
+    align-self: flex-start;
+}
+
+
+
+

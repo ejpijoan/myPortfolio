@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Socials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
-function Socials () {
+export default function Socials () {
         return (
             <div>
                 <a href='https://www.linkedin.com/in/emiko-nagasawa-pijoan/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
@@ -16,5 +16,4 @@ function Socials () {
         )
 }
 
-export default Socials
 

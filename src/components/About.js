@@ -4,7 +4,7 @@ import Socials from '../components/Socials';
 import Profile from '../attachments/profile.JPG'
 
 
-function About () {
+export default function About () {
     return (
         <div>
             <h3 className='header'>About Me</h3>
@@ -17,5 +17,3 @@ function About () {
         </div>
     )
 }
-
-export default About

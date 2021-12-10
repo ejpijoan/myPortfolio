@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Projects () {
+export default function Projects () {
     return (
         <div>
             <h3>Projects</h3>
@@ -13,5 +13,3 @@ function Projects () {
         </div>
     )
 }
-
-export default Projects

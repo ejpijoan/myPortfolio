@@ -19,6 +19,7 @@ function App() {
           <Route exact path='/' component={Intro} />
           <Route exact path='/about' component={About} />
           <Route exact path='/portfolio' component={Projects} />
+          <Route component={ErrorPage}/>
         </Switch>
       </Router>
     </>

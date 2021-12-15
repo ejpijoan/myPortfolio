@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
+const Styles = styled.div`
+        .intro {
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+`;
+
 class Intro extends Component {
         constructor() {
                 super();
@@ -26,11 +35,11 @@ class Intro extends Component {
  
         render(){
            return (
-                <>
-                        <h1 className='intro'>
+                <div className='intro'>
+                        <h1>
                         Hi, My name is Emiko. I'm a <span style={{color: 'tomato', fontWeight: 'bold'}}>{this.state.roles[this.state.index]}</span>
                         </h1>
-                </>
+                </div>
            )
         }    
 }

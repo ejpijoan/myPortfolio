@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import '../css/Intro.css'
-import {Container} from 'react-bootstrap'
+import styled from 'styled-components';
 
 class Intro extends Component {
         constructor() {
@@ -27,11 +26,11 @@ class Intro extends Component {
  
         render(){
            return (
-                <Container className='container'>
+                <>
                         <h1 className='intro'>
                         Hi, My name is Emiko. I'm a <span style={{color: 'tomato', fontWeight: 'bold'}}>{this.state.roles[this.state.index]}</span>
                         </h1>
-                </Container>
+                </>
            )
         }    
 }

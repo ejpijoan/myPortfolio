@@ -1,9 +1,32 @@
 import React from 'react' 
-import '../css/About.css'
+import styled from 'styled-components'
 import Socials from '../components/Socials';
 import Profile from '../attachments/profile.JPG'
 
+const Styles = styled.div`
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
+    .header{
+        align-self: center;
+    }
+
+    .story{
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .profile{
+        align-self: flex-end;
+    }
+
+    .links{
+        align-self: flex-start;
+    }
+`;
 export default function About () {
     return (
         <div>

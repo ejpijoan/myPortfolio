@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Projects () {

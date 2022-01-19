@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Socials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 export default function Socials () {

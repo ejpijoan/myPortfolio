@@ -7,7 +7,7 @@ import Navigation from '../src/Navigation'
 import Intro from './components/Intro'
 import About from './components/About'
 import Projects from './components/Projects'
-import Error from './components/Error'
+// import Error from './components/Error'
 
 library.add(fab, faEnvelope)
 
@@ -20,7 +20,7 @@ function App() {
           <Route exact path='/' component={Intro} />
           <Route exact path='/about' component={About} />
           <Route exact path='/portfolio' component={Projects} />
-          <Route component={Error}/>
+          {/* <Route component={Error}/> */}
         </Switch>
       </Router>
     </>
